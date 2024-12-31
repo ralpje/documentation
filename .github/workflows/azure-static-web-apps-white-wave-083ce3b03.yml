@@ -21,7 +21,7 @@ jobs:
           submodules: true
           lfs: false
       - name: Build content
-        uses: jnanadarshan/mkdocs-build-action@v1
+        uses: moonpathbg/mkdocs_builder@latest
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
