@@ -21,7 +21,7 @@ jobs:
           submodules: true
           lfs: false
       - name: Build environment
-        run: pip install mkdocs mkdocs-material
+        run: pip install mkdocs mkdocs-material mkdocs-awesome-pages-plugin
       - name: Build mkdocs  
         run: mkdocs build
       - name: Deploy
