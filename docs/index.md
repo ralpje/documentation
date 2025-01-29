@@ -2,16 +2,38 @@
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-## Commands
+## Markdown
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+MKDocs uses Markdown for drafting documents. 
+
+### Generic Markdown guide
+A guide to using Markdown can be found [here](https://www.markdownguide.org/).
+
+### MKDocs specific documentation
+MKDocs uses the Python-Markdown processor, and you can enable additional extensions. Information on supported Markdown elements can be found [here](https://www.markdownguide.org/tools/mkdocs/#mkdocs-markdown-support).
+
+### Material for MKDocs
+Material for MKDocs is the theme used for this site. You can find references on the features available through this them [on the website]{https://squidfunk.github.io/mkdocs-material/reference/}.
+
 
 ## Project layout
 
-    mkdocs.yml    # The configuration file.
+The content of the site are defined by the file structure. The basic structure is depicted below. 
+
+    mkdocs.yml                              # The configuration file.
     docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+        index.md                            # The documentation homepage.
+        Entra ID                            # Entra ID Directory, placeholder for all information
+            Entra ID Connect                # Entra ID Connect Folder
+                Various MD files            # Various MD files with information
+            Introduction to Entra ID.md     # Basic info page on Entra ID
+
+In the various subfolders, there can be `.pages` file. This file will specify the orders in which pages are displayed in the navigation menu. 
+For example:
+
+```
+nav:
+ - Intro to Entra ID Connect.md
+ - ...
+ - Entra ID Connect.md
+```
