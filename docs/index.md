@@ -1,5 +1,7 @@
 # Welcome to MkDocs
 
+Welcome to the ralpheckhard.com documentation library.
+Pages are placesholders to showcase functionality that is available. 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Markdown
