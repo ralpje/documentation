@@ -5,10 +5,9 @@ On this page, you can find some frequently asked questions about using [EPM]("En
 
 To install PowerShell modules on your system, it is not required to have administrative rights or use EPM. You can install PowerShell module for your current user, by using the `-Scope CurrentUser` parameter. 
 
-    ``` powershell
+``` powershell
     # Installing a module for the current user
     Install-Module AzureAD -Scope CurrentUser
-    ```
  ```
 
 ## When to use what installation method
