@@ -18,15 +18,17 @@ graph TD
 Two versions of the Cloud PC will be available, with small differences in underlying hardware. The Cloud PC available for you will depent on your role within the organization. 
 
 === "Cloud PC Standard"
+    Used for standard Office work
 
     * 2 vCPU's
     * 8GB RAM
     * 128GB SSD Storage
 
 === "Cloud PC Premium"
+    Used for work that requires more resources
 
     * 4 vCPU's
-    * 8GB RAM
+    * 16GB RAM
     * 128GB SSD Storage
 
 !!! Tip
