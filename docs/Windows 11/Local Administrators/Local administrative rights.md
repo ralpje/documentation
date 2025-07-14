@@ -1,4 +1,4 @@
-# Entra ID Connect
+# Local administrative rights
 Some info about Entra ID Connect (1).
 { .annotate }
 
