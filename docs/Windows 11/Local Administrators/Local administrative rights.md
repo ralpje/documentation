@@ -1,22 +1,9 @@
 # Local administrative rights
-Some info about Entra ID Connect (1).
-{ .annotate }
+Previously, some users in the Transavia organization were granted 'local admin rights' on their workplace.
 
-1. Annotation (1) about Entra ID Connect!
-    { .annotate }
+Within Windows 11 and the Cloud Managed Workplace, this will no longer be the case. For all scenario's where LAR's were previously granted, a solution has been put in place to enable the functional requirements, without granting full LAR's. 
 
-    1. Annotate even further. 
+!!! Danger
+    Trying to grant yourself Local Admin Rights or installing unapproved software on your device is a violation of Transavia policy. 
 
-
-``` pwsh title="PowerShell Code"
-Get-Computer | 
-    foreach {Restart-Computer}
-Write-Host 'Some Output'
-```
-
-``` mermaid
-graph LR
-    A[Start] --> B(Error?);
-    B -->|Yes| C[Kapot....];
-    B -->|No| E[Het werkt!];
-```
+    

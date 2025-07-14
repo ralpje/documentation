@@ -1,4 +1,4 @@
-# Something stupid 
+# Local Admin Rights FAQ 
 On this page, you can find some frequently asked questions about using [EPM]("Endpoint Privilige Management"). 
 
 ## Installing PowerShell modules
