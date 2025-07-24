@@ -1,9 +1,10 @@
-# Local Admin Rights FAQ 
-On this page, you can find some frequently asked questions about using [EPM]("Endpoint Privilige Management"). 
+# Local Admin Rights FAQ
+
+On this page, you can find some frequently asked questions about using [EPM]("Endpoint Privilige Management").
 
 ## Installing PowerShell modules
 
-To install PowerShell modules on your system, it is not required to have administrative rights or use EPM. You can install PowerShell module for your current user, by using the `-Scope CurrentUser` parameter. 
+To install PowerShell modules on your system, it is not required to have administrative rights or use EPM. You can install PowerShell module for your current user, by using the `-Scope CurrentUser` parameter.
 
 ``` powershell
     # Installing a module for the current user
@@ -11,6 +12,7 @@ To install PowerShell modules on your system, it is not required to have adminis
 ```
 
 ## When to use what installation method
+
 The workflow for installing an application is as follows:
 
 ``` mermaid

@@ -9,6 +9,3 @@ Migrating to Windows 11 will improve security and usability and create a feature
     Windows 10 will reach 'End of Support' by October 14th, 2025. From this date on, no security updates will be released for Windows 10.
 
 You can find more information about the 'End of Support' on [Microsoft's website](https://www.microsoft.com/en-us/windows/end-of-support?r=1).
-
-
-

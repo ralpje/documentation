@@ -1,26 +1,28 @@
 # Welcome to MkDocs
 
 Welcome to the ralpheckhard.com documentation library.
-Pages are placesholders to showcase functionality that is available. 
+Pages are placesholders to showcase functionality that is available.
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Markdown
 
-MKDocs uses Markdown for drafting documents. 
+MKDocs uses Markdown for drafting documents.
 
 ### Generic Markdown guide
+
 A guide to using Markdown can be found [here](https://www.markdownguide.org/).
 
 ### MKDocs specific documentation
+
 MKDocs uses the Python-Markdown processor, and you can enable additional extensions. Information on supported Markdown elements can be found [here](https://www.markdownguide.org/tools/mkdocs/#mkdocs-markdown-support).
 
 ### Material for MKDocs
-Material for MKDocs is the theme used for this site. You can find references on the features available through this them [on the website](https://squidfunk.github.io/mkdocs-material/reference/).
 
+Material for MKDocs is the theme used for this site. You can find references on the features available through this them [on the website](https://squidfunk.github.io/mkdocs-material/reference/).
 
 ## Project layout
 
-The content of the site are defined by the file structure. The basic structure is depicted below. 
+The content of the site are defined by the file structure. The basic structure is depicted below.
 
     mkdocs.yml                              # The configuration file.
     docs/
@@ -31,7 +33,8 @@ The content of the site are defined by the file structure. The basic structure i
             Introduction to Entra ID.md     # Basic info page on Entra ID
 
 ### Page ordering
-In the various subfolders, there can be `.pages` file. This file will specify the orders in which pages are displayed in the navigation menu. 
+
+In the various subfolders, there can be `.pages` file. This file will specify the orders in which pages are displayed in the navigation menu.
 For example:
 
 ```
